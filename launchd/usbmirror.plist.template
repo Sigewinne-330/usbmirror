@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>__LABEL__</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/sh</string>
+		<string>__HOME__/.config/usbmirror/on-mount.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Logs/usbmirror/launchd.log</string>
+	<key>StandardOutPath</key>
+	<string>__HOME__/Library/Logs/usbmirror/launchd.log</string>
+	<key>StartOnMount</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>10</integer>
+</dict>
+</plist>
